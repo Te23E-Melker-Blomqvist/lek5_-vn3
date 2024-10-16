@@ -1,0 +1,139 @@
+/* Melker Blomqvist Te23E */
+
+
+body {
+    color: #35424a;
+}
+.rubrik {
+    color: #e8491d;
+}
+.top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 3px solid #e8491d;
+    background-color: #35424a;
+}
+.topinfo {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    margin-top: 10px;
+    width: 100px;
+}
+.hem {
+    color: #e8491d;
+    margin-right: 25px;
+}
+.om {
+    color: white;
+    margin-right: 25px;
+}
+.övre {
+    background-image: url(img/showcase.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #35424a;
+    border-bottom: 3px solid #e8491d;
+    height: 300px;
+    justify-content: center;
+    padding-top: 10%;
+    background-position: center;
+    text-align: center;
+}
+.övretxt{
+    align-items: center;
+    width: 80%;
+    height: 800px;
+    text-align: center;
+    margin-bottom: 150px;
+}
+.övre h1 {
+    font-size: 50px;
+    color: white;
+}
+.övre p {
+    color: white;
+}
+.mellan {
+    background-color: #35424a;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 3px solid #e8491d;
+    align-items: center;
+    padding: 10px;
+}
+.mellan h1 {
+    color: white;
+    font-size: 25px;
+}
+.email {
+    background-color: white;
+    color: black;
+    width: 300px;
+}
+.test{
+    display: flex;
+    flex-direction: row;
+    height: 35px;
+}
+.subscribe {
+    color: white;
+    background-color: #e8491d;
+    width: 100px;
+    text-align: center;
+    margin-left: 5px;
+}
+.mellan p{
+    margin-top: 10px;
+}
+.under {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+}
+.under p{
+    text-align: justify;
+    margin: 10px;
+    max-width: 200px;
+}
+.under img {
+    width: 100px;
+}
+.under h2 {
+    color: black;
+}
+.html {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    align-items: center;
+}
+.css {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    align-items: center;
+}
+.design {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    align-items: center;
+}
+.sidfot {
+    background-color: #e8491d;
+    text-align: center;
+    color: white;
+    height: 60px;
+}
+.sidfot p {
+    align-items: center;
+    padding-top: 20px;
+}
